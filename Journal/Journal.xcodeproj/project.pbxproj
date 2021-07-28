@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27229E8D26A7781F00913B0D /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27229E8C26A7781F00913B0D /* Journal.swift */; };
+		27229E8F26A779AE00913B0D /* JournalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27229E8E26A779AE00913B0D /* JournalController.swift */; };
+		27229E9126A78E5400913B0D /* JournalListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27229E9026A78E5400913B0D /* JournalListViewController.swift */; };
+		27229E9326A7A8AC00913B0D /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27229E9226A7A8AC00913B0D /* File.swift */; };
+		27E072AF26A60FBC00F294F1 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E072AE26A60FBC00F294F1 /* Entry.swift */; };
+		27E072B126A6122900F294F1 /* EntryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E072B026A6122900F294F1 /* EntryController.swift */; };
+		27E072B326A6196C00F294F1 /* EntryListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E072B226A6196C00F294F1 /* EntryListTableViewController.swift */; };
+		27E072B526A6268000F294F1 /* EntryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E072B426A6268000F294F1 /* EntryDetailViewController.swift */; };
 		7EDA120F259D233600BBD350 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDA120E259D233600BBD350 /* AppDelegate.swift */; };
 		7EDA1211259D233600BBD350 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDA1210259D233600BBD350 /* SceneDelegate.swift */; };
 		7EDA1216259D233600BBD350 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA1214259D233600BBD350 /* Main.storyboard */; };
@@ -15,6 +23,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27229E8C26A7781F00913B0D /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
+		27229E8E26A779AE00913B0D /* JournalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalController.swift; sourceTree = "<group>"; };
+		27229E9026A78E5400913B0D /* JournalListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalListViewController.swift; sourceTree = "<group>"; };
+		27229E9226A7A8AC00913B0D /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		27E072AE26A60FBC00F294F1 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		27E072B026A6122900F294F1 /* EntryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryController.swift; sourceTree = "<group>"; };
+		27E072B226A6196C00F294F1 /* EntryListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryListTableViewController.swift; sourceTree = "<group>"; };
+		27E072B426A6268000F294F1 /* EntryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryDetailViewController.swift; sourceTree = "<group>"; };
 		7EDA120B259D233600BBD350 /* Journal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Journal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EDA120E259D233600BBD350 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EDA1210259D233600BBD350 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,6 +51,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27E072A826A60F5A00F294F1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7EDA1227259D237600BBD350 /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		27E072A926A60F6600F294F1 /* Helpers and Extension */ = {
+			isa = PBXGroup;
+			children = (
+				27229E9226A7A8AC00913B0D /* File.swift */,
+			);
+			path = "Helpers and Extension";
+			sourceTree = "<group>";
+		};
+		27E072AA26A60F7200F294F1 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				27E072B226A6196C00F294F1 /* EntryListTableViewController.swift */,
+				27E072B426A6268000F294F1 /* EntryDetailViewController.swift */,
+				27229E9026A78E5400913B0D /* JournalListViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		27E072AB26A60F7B00F294F1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				27E072AC26A60F7D00F294F1 /* ModelControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		27E072AC26A60F7D00F294F1 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				27E072B026A6122900F294F1 /* EntryController.swift */,
+				27229E8E26A779AE00913B0D /* JournalController.swift */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		27E072AD26A60F8700F294F1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				27E072AE26A60FBC00F294F1 /* Entry.swift */,
+				27229E8C26A7781F00913B0D /* Journal.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		7EDA1202259D233600BBD350 = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +122,12 @@
 		7EDA120D259D233600BBD350 /* Journal */ = {
 			isa = PBXGroup;
 			children = (
+				27E072AD26A60F8700F294F1 /* Models */,
+				27E072AB26A60F7B00F294F1 /* Controllers */,
+				27E072AA26A60F7200F294F1 /* View Controllers */,
+				27E072A826A60F5A00F294F1 /* Views */,
+				27E072A926A60F6600F294F1 /* Helpers and Extension */,
 				7EDA1223259D234200BBD350 /* Resources */,
-				7EDA1227259D237600BBD350 /* Storyboards */,
 			);
 			path = Journal;
 			sourceTree = "<group>";
@@ -150,7 +222,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27229E9126A78E5400913B0D /* JournalListViewController.swift in Sources */,
+				27229E8D26A7781F00913B0D /* Journal.swift in Sources */,
+				27229E8F26A779AE00913B0D /* JournalController.swift in Sources */,
+				27E072AF26A60FBC00F294F1 /* Entry.swift in Sources */,
+				27E072B326A6196C00F294F1 /* EntryListTableViewController.swift in Sources */,
+				27229E9326A7A8AC00913B0D /* File.swift in Sources */,
 				7EDA120F259D233600BBD350 /* AppDelegate.swift in Sources */,
+				27E072B126A6122900F294F1 /* EntryController.swift in Sources */,
+				27E072B526A6268000F294F1 /* EntryDetailViewController.swift in Sources */,
 				7EDA1211259D233600BBD350 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
